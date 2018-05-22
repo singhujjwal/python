@@ -1,3 +1,4 @@
+/bin:
 [
 bash
 cat
@@ -35,3 +36,15 @@ test
 unlink
 wait4path
 zsh
+
+/usr:
+X11
+X11R6
+bin
+include
+lib
+libexec
+local
+sbin
+share
+standalone
