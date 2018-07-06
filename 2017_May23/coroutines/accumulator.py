@@ -8,13 +8,13 @@ if __name__ == '__main__':
     acc = accumulate()
     acc.next()
 
-    print acc.send(10)
+    print (acc.send(10))
     acc.next()
 
-    print acc.send(20)
+    print (acc.send(20))
     acc.next()
 
-    print acc.send(30)
+    print (acc.send(30))
     acc.next()
 
 
