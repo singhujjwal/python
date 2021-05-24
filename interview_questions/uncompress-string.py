@@ -1,7 +1,7 @@
 
 def expand(): 
-   compressed = "[ab[c]]” 
-   stack s = stack()  
+   compressed = "[ab[c]]" 
+   s = stack()  
    factor = 1
    for char in compressed: 
        if char != ‘]’: 
@@ -21,4 +21,8 @@ def expand():
 
                 # [a,b,c] 
     
-    return  "".join(s)  
+    return  "".join(s)
+
+
+if __name__ == '__main__':
+    expand()

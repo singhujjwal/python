@@ -4,7 +4,7 @@ from threading import Thread
 
 def fn(tname, count):
     for i in range(count):
-        print "In", tname, "counting", i
+        print ("In", tname, "counting", i)
         sleep(0.5)
 
 t1 = Thread(target=fn, args=("foo", 10))

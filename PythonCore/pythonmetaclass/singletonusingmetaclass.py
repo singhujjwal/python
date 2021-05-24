@@ -17,11 +17,13 @@ x = SingletonClass()
 y = SingletonClass()
 
 print (x == y)
-
+a = input()
 x = RegularClass()
 y = RegularClass()
 
+
 print (x == y)
+a = input()
 
 class SingletonBaseWithInheritance(object):
     _instance = None
@@ -36,9 +38,10 @@ class SingletonClassWithInheritance(SingletonBaseWithInheritance):
 x = SingletonClassWithInheritance()
 y = SingletonClassWithInheritance()
 
+a = input()
 print (x == y)
 
 x = RegularClass()
 y = RegularClass()
-
+a = input()
 print (x == y)
